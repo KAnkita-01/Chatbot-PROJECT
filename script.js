@@ -51,6 +51,8 @@ function getBotResponse(userInput) {
         return "You're welcome! I'm here if you need anything else. 😊";
     } else if (lowerCaseInput.includes("okay")) {
         return "Got it! Let me know if you need anything else.";
+    } else if (lowerCaseInput.includes("Bye")) {
+        return "Bye";
     } else {
         return "Sorry, I didn't quite catch that. Can you try asking something else?";
     }
